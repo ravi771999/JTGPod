@@ -1,0 +1,14 @@
+body{
+    background-color: #FDFDFD;
+    margin:0;
+}
+
+.navbar,.navbar_left, .navbar_right {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    background-color: #ECECEC;
+    height: 200px;
+}
