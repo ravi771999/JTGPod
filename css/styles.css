@@ -39,6 +39,10 @@ body{
     padding-left: 25px;
 }
 
+:hover.navbar_button{
+    cursor: pointer;
+}
+
 .navbar_right ul{
     list-style: none;
     display: flex;
