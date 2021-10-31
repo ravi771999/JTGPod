@@ -23,7 +23,7 @@ body{
     width:100%;
 }
 
-.navbar_right button{
+button{
     height: 40px;
     width: 100px;
     background-color: #E54D11;
@@ -39,7 +39,7 @@ body{
     padding-left: 25px;
 }
 
-:hover.navbar_button{
+:hover button{
     cursor: pointer;
 }
 
@@ -65,4 +65,34 @@ body{
     text-decoration: underline;
     text-underline-offset: 15px;
     color: #E54D11;
+}
+
+.latest_blog{
+    width:70%;
+    margin-left: 15%;
+    margin-top: -50px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px 0 rgba(27, 27, 27, 0.2);
+    /* border: 2px solid green; */
+}
+
+.latest_blog_header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.latest_blog_heading{
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 35px;   
+}
+
+.latest_blog_button{
+    width:50%;
+    position: relative;
+    left: 300px
 }
