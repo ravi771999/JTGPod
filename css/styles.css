@@ -12,11 +12,11 @@ body{
 .navbar{
     background-color: #ECECEC;
     height: 150px;
-    padding: 40px 150px;
+    padding: 40px 185px;
 }
 
 .navbar_left{
-    padding-right:300px
+    padding-right:260px
 }
 
 .navbar_right{
@@ -190,4 +190,33 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.blog_posts{
+    background-color: aqua;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-heading{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.card{
+    width: 30%;
+    height: 250px;
+    background-color: brown;
+}
+
+.blog-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
