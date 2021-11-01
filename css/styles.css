@@ -11,7 +11,7 @@ body{
 
 .navbar{
     background-color: #ECECEC;
-    height: 100px;
+    height: 150px;
     padding: 40px 150px;
 }
 
@@ -26,12 +26,11 @@ body{
 button{
     height: 40px;
     width: 100px;
-    background-color: #E54D11;
+    background-color: #e52a11;
     margin: 0;
     padding: 0;
-    border-width: 0.25px;
-    border-color: white;
-    border-radius: 2.5%;
+    border-width: 0px;
+    border-radius: 5%;;
     color: white;
 }
 
@@ -163,4 +162,32 @@ button{
     line-height: 25px;
     color: rgb(194, 175, 175);
     font-weight: bolder;
+}
+
+.show_more_blogs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.show_more_blogs{
+    padding: 30px;
+}
+
+.show_more_blogs button{
+    width: 80%;
+    background-color: #FFFFFF;
+    color: #E54D11;
+    border: 1px solid #E54D11;
+    border-radius: 5%;
+    font-weight: 550;
+}
+
+.button_border{
+    width: 25%;
+    border-left: 1px solid rgb(221, 210, 210);
+    border-right: 1px solid rgb(221, 210, 210);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
