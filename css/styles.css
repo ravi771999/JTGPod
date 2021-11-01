@@ -77,7 +77,7 @@ button{
 }
 
 .latest_blog_header{
-    height: 80px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -94,5 +94,5 @@ button{
 .latest_blog_button{
     width:50%;
     position: relative;
-    left: 300px
+    left: 280px
 }
