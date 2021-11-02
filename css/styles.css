@@ -129,11 +129,12 @@ button{
 }
 
 .blog-data{
-    height: 60%;
+    height: 50%;
     font-size: 12px;
     color: grey;
     line-height: 1.5em;
     border-right: 1px solid rgb(216, 203, 203);
+    padding-top: 15px;
 }
 
 .blog-button{
@@ -142,6 +143,7 @@ button{
     justify-content: end;
     align-items: flex-end;
     padding-right: 20px;
+    padding-top: 10px;
 }
 
 .blog-right{
@@ -150,6 +152,7 @@ button{
     align-items: center;
     justify-content: center;
     width:30%;
+    padding-top: 14px;
 }
 
 .blog-right ul{
