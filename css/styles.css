@@ -347,14 +347,14 @@ button{
 }
 
 .pages-heading, .recent-blogs-heading, .partners-heading{
-    height: 20%;
+    height: 18%;
     display: flex;
     align-items: end;
 }
 
 .pages-content, .recent-blogs-content{
     height: 60%;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .pages-content ul, .recent-blogs-content ul, .partners-content ul{
