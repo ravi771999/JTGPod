@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar,.navbar_left, .navbar_right {
+.navbar,.navbar-left, .navbar-right {
     display: flex;
     flex-direction: row;
 }
@@ -15,11 +15,11 @@ body{
     padding: 40px 185px;
 }
 
-.navbar_left{
+.navbar-left{
     padding-right:260px
 }
 
-.navbar_right{
+.navbar-right{
     width:100%;
 }
 
@@ -42,7 +42,7 @@ button{
     cursor: pointer;
 }
 
-.navbar_right ul{
+.navbar-right ul{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -50,23 +50,23 @@ button{
     font-size: 15px;
 }
 
-.navbar_right li{
+.navbar-right li{
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.navbar_right a:link,a:visited{
+.navbar-right a:link,a:visited{
     color:black;
     text-decoration: none;
 }
 
-.navbar_right a:hover{
+.navbar-right a:hover{
     text-decoration: underline;
     text-underline-offset: 15px;
     color: #E54D11;
 }
 
-.latest_blog{
+.latest-blog{
     width:70%;
     margin-left: 15%;
     margin-top: -50px;
@@ -74,31 +74,31 @@ button{
     box-shadow: 0 2px 8px 0 rgba(27, 27, 27, 0.2);
 }
 
-.latest_blog_header{
+.latest-blog-header{
     height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.blog_content{
+.blog-content{
     padding-left:10px;
 }
 
-.latest_blog_heading{
+.latest-blog-heading{
     width: 50%;
     font-weight: bold;
     font-size: 25px;
     padding-left: 35px;   
 }
 
-.latest_blog_button{
+.latest-blog-button{
     width:50%;
     position: relative;
     left: 280px
 }
 
-.latest_blog_body{
+.latest-blog-body{
     align-items: center;
     justify-content: center;
 }
@@ -111,15 +111,16 @@ button{
     padding-bottom: 20px;
 }
 
-.blog_left{
+.blog-left{
     display: flex;
     flex-direction: row;
 }
+
 .blog img{
     width:200px;
 }
 
-.blog_heading{
+.blog-heading{
     font-weight: bold;
     font-size: 18px;
     height: 25%;
@@ -127,7 +128,7 @@ button{
     align-items: center;
 }
 
-.blog_data{
+.blog-data{
     height: 60%;
     font-size: 12px;
     color: grey;
@@ -135,16 +136,15 @@ button{
     border-right: 1px solid rgb(216, 203, 203);
 }
 
-.blog_button{
+.blog-button{
     height: 60%;
     display: flex;
-    flex-direction: row;
     justify-content: end;
-    align-items:flex-end;
+    align-items: flex-end;
     padding-right: 20px;
 }
 
-.blog_right{
+.blog-right{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,7 +152,7 @@ button{
     width:30%;
 }
 
-.blog_right ul{
+.blog-right ul{
     list-style: none;
     font-size: x-small;
     padding:0px;
@@ -164,17 +164,17 @@ button{
     font-weight: bolder;
 }
 
-.show_more_blogs{
+.show-more-blogs{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.show_more_blogs{
+.show-more-blogs{
     padding: 30px;
 }
 
-.show_more_blogs button{
+.show-more-blogs button{
     width: 80%;
     background-color: #FFFFFF;
     color: #E54D11;
@@ -183,7 +183,7 @@ button{
     font-weight: 550;
 }
 
-.button_border{
+.button-border{
     width: 25%;
     border-left: 1px solid rgb(221, 210, 210);
     border-right: 1px solid rgb(221, 210, 210);
@@ -192,8 +192,7 @@ button{
     justify-content: center;
 }
 
-.blog_posts{
-    background-color: aqua;
+.blog-posts{
     width: 70%;
     margin-left: 15%;
     margin-top: 100px;
@@ -203,20 +202,79 @@ button{
     align-items: center;
 }
 
-.blog-heading{
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 60px;
-}
-
 .card{
     width: 30%;
-    height: 250px;
-    background-color: brown;
-}
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 8px 0 rgba(27, 27, 27, 0.2);
+} 
 
 .blog-cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-between;
+}
+
+.card-header{
+    margin-top: 25px;
+    padding-left: 20px;
+    border-left: 3px solid #e52a11;
+    line-height: 23px;
+}
+
+.post-by{
+    font-size: 14px;
+    color: #e52a11;
+    font-weight: 600;
+}
+
+.post-at{
+    font-size: 12px;
+    color: grey;
+    margin-left: 5px;  
+}
+
+.post-company{
+    font-size: 12px;
+    color: grey;
+}
+
+.card-heading{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.card-content{
+    margin-left: 20px;
+    height: 45%;
+    font-size: 12px;
+    color: grey;
+    line-height: 1.5em;
+}
+
+.card-footer{
+    margin-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.card-footer button{
+    background-color: #FFFFFF;
+    color: #E54D11;
+    border: 1px solid #E54D11;
+    border-radius: 5%;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-left-content{
+    font-size: 12px;
+    color: grey;
+    line-height: 1.5em;   
 }
